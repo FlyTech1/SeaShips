@@ -1,5 +1,1 @@
-print("я верю!!!!!!!!!!!!!")
-print("хуй")
-print('hello')
-print("123")
 print("NO mather")
