@@ -1,7 +1,7 @@
 import sys
 
 from PySide6.QtWidgets import QApplication, QMainWindow
-from from1 import Ui_MainWindow
+from StartWindow import Ui_MainWindow
 from game_menu import  Ui_game_menu
 
 class Window_main(QMainWindow):
