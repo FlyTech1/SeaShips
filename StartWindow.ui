@@ -22,13 +22,13 @@
    <string notr="true">background-color: #009eff</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="PB_Play">
     <property name="geometry">
      <rect>
-      <x>220</x>
-      <y>270</y>
-      <width>361</width>
-      <height>91</height>
+      <x>200</x>
+      <y>200</y>
+      <width>400</width>
+      <height>100</height>
      </rect>
     </property>
     <property name="font">
@@ -54,13 +54,13 @@ border-radius: 25px;</string>
      </size>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="PB_Rules">
     <property name="geometry">
      <rect>
-      <x>220</x>
-      <y>380</y>
-      <width>361</width>
-      <height>91</height>
+      <x>200</x>
+      <y>350</y>
+      <width>400</width>
+      <height>100</height>
      </rect>
     </property>
     <property name="font">

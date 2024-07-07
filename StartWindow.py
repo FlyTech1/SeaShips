@@ -30,28 +30,28 @@ class Ui_MainWindow(object):
         MainWindow.setStyleSheet(u"background-color: #009eff")
         self.centralwidget = QWidget(MainWindow)
         self.centralwidget.setObjectName(u"centralwidget")
-        self.pushButton = QPushButton(self.centralwidget)
-        self.pushButton.setObjectName(u"pushButton")
-        self.pushButton.setGeometry(QRect(220, 270, 361, 91))
+        self.PB_Play = QPushButton(self.centralwidget)
+        self.PB_Play.setObjectName(u"PB_Play")
+        self.PB_Play.setGeometry(QRect(200, 200, 400, 100))
         font1 = QFont()
         font1.setFamilies([u"MS Sans Serif"])
         font1.setPointSize(52)
         font1.setBold(True)
-        self.pushButton.setFont(font1)
-        self.pushButton.setStyleSheet(u"\n"
+        self.PB_Play.setFont(font1)
+        self.PB_Play.setStyleSheet(u"\n"
 "\n"
 "background-color: rgb(255, 255, 255);\n"
 "border-radius: 25px;")
-        self.pushButton.setIconSize(QSize(32, 32))
-        self.pushButton_2 = QPushButton(self.centralwidget)
-        self.pushButton_2.setObjectName(u"pushButton_2")
-        self.pushButton_2.setGeometry(QRect(220, 380, 361, 91))
-        self.pushButton_2.setFont(font1)
-        self.pushButton_2.setStyleSheet(u"\n"
+        self.PB_Play.setIconSize(QSize(32, 32))
+        self.PB_Rules = QPushButton(self.centralwidget)
+        self.PB_Rules.setObjectName(u"PB_Rules")
+        self.PB_Rules.setGeometry(QRect(200, 350, 400, 100))
+        self.PB_Rules.setFont(font1)
+        self.PB_Rules.setStyleSheet(u"\n"
 "\n"
 "background-color: rgb(255, 255, 255);\n"
 "border-radius: 25px;")
-        self.pushButton_2.setIconSize(QSize(32, 32))
+        self.PB_Rules.setIconSize(QSize(32, 32))
         self.pushButton_3 = QPushButton(self.centralwidget)
         self.pushButton_3.setObjectName(u"pushButton_3")
         self.pushButton_3.setGeometry(QRect(10, 20, 71, 71))
@@ -70,8 +70,8 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"Battle Ships", None))
-        self.pushButton.setText(QCoreApplication.translate("MainWindow", u"\u0418\u0433\u0440\u0430\u0442\u044c", None))
-        self.pushButton_2.setText(QCoreApplication.translate("MainWindow", u"\u041f\u0440\u0430\u0432\u0438\u043b\u0430", None))
+        self.PB_Play.setText(QCoreApplication.translate("MainWindow", u"\u0418\u0433\u0440\u0430\u0442\u044c", None))
+        self.PB_Rules.setText(QCoreApplication.translate("MainWindow", u"\u041f\u0440\u0430\u0432\u0438\u043b\u0430", None))
         self.pushButton_3.setText("")
     # retranslateUi
 
