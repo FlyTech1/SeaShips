@@ -1,11 +1,7 @@
 <RCC>
   <qresource prefix="icon">
+    <file>C:/Users/faerx/Downloads/1-20-2048x2011.png</file>
     <file>icons/cargo-ship.png</file>
   </qresource>
-  <qresource prefix="Models_Ships">
-    <file>Models ships/ship1.png</file>
-    <file>Models ships/ship2.png</file>
-    <file>Models ships/ship3.png</file>
-    <file>Models ships/ship4.png</file>
-  </qresource>
+  <qresource prefix="Models_Ships"/>
 </RCC>
