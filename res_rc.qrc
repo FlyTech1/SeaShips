@@ -2,7 +2,7 @@
   <qresource prefix="icon">
     <file>icons/cargo-ship.png</file>
   </qresource>
-  <qresource prefix="Models_Ships">
+  <qresource prefix="models">
     <file>Models ships/ship1.png</file>
     <file>Models ships/ship2.png</file>
     <file>Models ships/ship3.png</file>

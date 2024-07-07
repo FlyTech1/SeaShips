@@ -23,13 +23,13 @@ class Ui_game_menu(object):
     def setupUi(self, game_menu):
         if not game_menu.objectName():
             game_menu.setObjectName(u"game_menu")
-        game_menu.resize(800, 600)
+        game_menu.resize(800, 650)
         game_menu.setStyleSheet(u"background-color: #009eff")
         self.centralwidget = QWidget(game_menu)
         self.centralwidget.setObjectName(u"centralwidget")
         self.label = QLabel(self.centralwidget)
         self.label.setObjectName(u"label")
-        self.label.setGeometry(QRect(650, 190, 41, 41))
+        self.label.setGeometry(QRect(660, 190, 41, 41))
         self.label_2 = QLabel(self.centralwidget)
         self.label_2.setObjectName(u"label_2")
         self.label_2.setGeometry(QRect(660, 230, 51, 31))
@@ -58,10 +58,10 @@ class Ui_game_menu(object):
 
     def retranslateUi(self, game_menu):
         game_menu.setWindowTitle(QCoreApplication.translate("game_menu", u"MainWindow", None))
-        self.label.setText(QCoreApplication.translate("game_menu", u"<html><head/><body><p align=\"center\"><img src=\":/Models_Ships/Models ships/ship1.png\"/></p></body></html>", None))
-        self.label_2.setText(QCoreApplication.translate("game_menu", u"<html><head/><body><p><img src=\":/Models_Ships/Models ships/ship2.png\"/></p></body></html>", None))
-        self.label_3.setText(QCoreApplication.translate("game_menu", u"<html><head/><body><p><img src=\":/Models_Ships/Models ships/ship3.png\"/></p></body></html>", None))
-        self.label_4.setText(QCoreApplication.translate("game_menu", u"<html><head/><body><p><img src=\":/Models_Ships/Models ships/ship4.png\"/></p></body></html>", None))
+        self.label.setText(QCoreApplication.translate("game_menu", u"<html><head/><body><p><img src=\":/models/Models ships/ship1.png\"/></p></body></html>", None))
+        self.label_2.setText(QCoreApplication.translate("game_menu", u"<html><head/><body><p><img src=\":/models/Models ships/ship2.png\"/></p></body></html>", None))
+        self.label_3.setText(QCoreApplication.translate("game_menu", u"<html><head/><body><p><img src=\":/models/Models ships/ship3.png\"/></p></body></html>", None))
+        self.label_4.setText(QCoreApplication.translate("game_menu", u"<html><head/><body><p><img src=\":/models/Models ships/ship4.png\"/></p></body></html>", None))
         self.pushButton.setText(QCoreApplication.translate("game_menu", u"\u0420\u0430\u0441\u0441\u0442\u0430\u0432\u0438\u0442\u044c \u043a\u043e\u0440\u0430\u0431\u043b\u0438  \u0432 \u0441\u043b\u0443\u0447\u0430\u0439\u043d\u043e\u043c \u043f\u043e\u0440\u044f\u0434\u043a\u0435", None))
     # retranslateUi
 
