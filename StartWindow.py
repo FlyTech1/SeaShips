@@ -52,15 +52,15 @@ class Ui_MainWindow(object):
 "background-color: rgb(255, 255, 255);\n"
 "border-radius: 25px;")
         self.PB_Rules.setIconSize(QSize(32, 32))
-        self.pushButton_3 = QPushButton(self.centralwidget)
-        self.pushButton_3.setObjectName(u"pushButton_3")
-        self.pushButton_3.setGeometry(QRect(10, 20, 71, 71))
-        self.pushButton_3.setFont(font1)
-        self.pushButton_3.setStyleSheet(u"image: url(:/icon/icons/1-20-2048x2011.png);\n"
+        self.PB_TG = QPushButton(self.centralwidget)
+        self.PB_TG.setObjectName(u"PB_TG")
+        self.PB_TG.setGeometry(QRect(10, 20, 71, 71))
+        self.PB_TG.setFont(font1)
+        self.PB_TG.setStyleSheet(u"image: url(:/icon/icons/1-20-2048x2011.png);\n"
 "\n"
 "background-color: rgb(255, 255, 255);\n"
 "border-radius: 35px;")
-        self.pushButton_3.setIconSize(QSize(32, 32))
+        self.PB_TG.setIconSize(QSize(32, 32))
         MainWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(MainWindow)
@@ -72,6 +72,6 @@ class Ui_MainWindow(object):
         MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"Battle Ships", None))
         self.PB_Play.setText(QCoreApplication.translate("MainWindow", u"\u0418\u0433\u0440\u0430\u0442\u044c", None))
         self.PB_Rules.setText(QCoreApplication.translate("MainWindow", u"\u041f\u0440\u0430\u0432\u0438\u043b\u0430", None))
-        self.pushButton_3.setText("")
+        self.PB_TG.setText("")
     # retranslateUi
 
