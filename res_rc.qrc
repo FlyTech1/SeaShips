@@ -1,6 +1,6 @@
 <RCC>
   <qresource prefix="icon">
-    <file>icons/cargo-ship.png</file>
+    <file>icons/1-20-2048x2011.png</file>
   </qresource>
   <qresource prefix="models">
     <file>Models ships/ship1.png</file>

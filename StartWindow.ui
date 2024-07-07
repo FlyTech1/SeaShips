@@ -6,22 +6,43 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>707</width>
-    <height>574</height>
+    <width>800</width>
+    <height>650</height>
    </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Ravie</family>
+   </font>
   </property>
   <property name="windowTitle">
    <string>Battle Ships</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #009eff</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>280</x>
-      <y>260</y>
-      <width>291</width>
-      <height>211</height>
+      <x>220</x>
+      <y>270</y>
+      <width>361</width>
+      <height>91</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Sans Serif</family>
+      <pointsize>52</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+
+background-color: rgb(255, 255, 255);
+border-radius: 25px;</string>
     </property>
     <property name="text">
      <string>Играть</string>
@@ -33,8 +54,74 @@
      </size>
     </property>
    </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>380</y>
+      <width>361</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Sans Serif</family>
+      <pointsize>52</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+
+background-color: rgb(255, 255, 255);
+border-radius: 25px;</string>
+    </property>
+    <property name="text">
+     <string>Правила</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>32</width>
+      <height>32</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>71</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Sans Serif</family>
+      <pointsize>52</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/icon/icons/1-20-2048x2011.png);
+
+background-color: rgb(255, 255, 255);
+border-radius: 35px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>32</width>
+      <height>32</height>
+     </size>
+    </property>
+   </widget>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="res_rc.qrc"/>
+ </resources>
  <connections/>
 </ui>
