@@ -69,10 +69,16 @@ class Ui_game_menu(object):
         self.tableWidget.setHorizontalHeaderItem(8, __qtablewidgetitem8)
         __qtablewidgetitem9 = QTableWidgetItem()
         self.tableWidget.setHorizontalHeaderItem(9, __qtablewidgetitem9)
+        self.tableWidget.horizontalHeader().setDefaultSectionSize(5) # изменяет расстояние между столбцами
         if (self.tableWidget.rowCount() < 10):
             self.tableWidget.setRowCount(10)
+        self.tableWidget.verticalHeader().setDefaultSectionSize(35)
+        self.tableWidget.setStyleSheet("""
+        QTableWidget {background-color: transparent; gridline-color: white; border: none; }
+        QHeaderView::section { background-color: transparent; }
+        """)
         self.tableWidget.setObjectName(u"tableWidget")
-        self.tableWidget.setGeometry(QRect(40, 130, 591, 401))
+        self.tableWidget.setGeometry(QRect(10, 10, 415, 427))
         game_menu.setCentralWidget(self.centralwidget)
         self.menubar = QMenuBar(game_menu)
         self.menubar.setObjectName(u"menubar")
