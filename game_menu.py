@@ -50,10 +50,10 @@ class Ui_game_menu(object):
         self.statusbar = QStatusBar(game_menu)
         self.statusbar.setObjectName(u"statusbar")
         game_menu.setStatusBar(self.statusbar)
-
+        self.square=QPainter()
+        self.square.drawRect(0,0,200,200)
         self.retranslateUi(game_menu)
 
-        QMetaObject.connectSlotsByName(game_menu)
     # setupUi
 
     def retranslateUi(self, game_menu):

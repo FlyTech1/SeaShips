@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb3f5831-e8e8-4500-be80-a785c48bb19a" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/Models ships/ship1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models ships/ship2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models ships/ship3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models ships/ship4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StartWindow.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BattleLogic.py" beforeDir="false" afterPath="$PROJECT_DIR$/BattleLogic.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game_menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_menu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game_menu.ui" beforeDir="false" afterPath="$PROJECT_DIR$/game_menu.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res_rc.py" beforeDir="false" afterPath="$PROJECT_DIR$/res_rc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res_rc.qrc" beforeDir="false" afterPath="$PROJECT_DIR$/res_rc.qrc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720351310427</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="1">
+      <option name="closed" value="true" />
+      <created>1720352524469</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1720352524469</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
