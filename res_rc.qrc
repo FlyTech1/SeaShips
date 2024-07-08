@@ -1,11 +1,11 @@
 <RCC>
   <qresource prefix="icon">
-    <file>1-20-2048x2011.png</file>
+    <file>icons/1-20-2048x2011.png</file>
   </qresource>
   <qresource prefix="ModelsShips">
-    <file>ship2.png</file>
-    <file>ship3.png</file>
-    <file>ship4.png</file>
-    <file>ship1.png</file>
+    <file>Models ships/ship1.png</file>
+    <file>Models ships/ship2.png</file>
+    <file>Models ships/ship3.png</file>
+    <file>Models ships/ship4.png</file>
   </qresource>
 </RCC>
