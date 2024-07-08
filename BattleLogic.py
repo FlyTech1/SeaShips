@@ -20,8 +20,9 @@ class Window_main(QMainWindow):
         self.game_menu_window.show()
         self.hide()
     def on_PB_TG_clicked(self):
-        pass
-        #label=QtGui.QLabel('<a href=""')
+        print("NEGRI")
+        url=QUrl("https://t.me/bezdariprogaut")
+        QDesktopServices.openUrl(url)
 
 
 
