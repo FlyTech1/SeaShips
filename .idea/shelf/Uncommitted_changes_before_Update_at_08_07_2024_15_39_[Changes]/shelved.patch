@@ -1,0 +1,20 @@
+Index: main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>from BattleLogic import Window_main\r\nfrom PySide6.QtWidgets import QApplication\r\nimport sys\r\nif __name__ == \"__main__\":\r\n    app=QApplication(sys.argv)\r\n    w=Window_main()\r\n    w.show()\r\n    sys.exit(app.exec())\r\n
+===================================================================
+diff --git a/main.py b/main.py
+--- a/main.py	
++++ b/main.py	
+@@ -1,8 +1,9 @@
+ from BattleLogic import Window_main
+ from PySide6.QtWidgets import QApplication
+ import sys
++
+ if __name__ == "__main__":
+-    app=QApplication(sys.argv)
+-    w=Window_main()
++    app = QApplication(sys.argv)
++    w = Window_main()
+     w.show()
+     sys.exit(app.exec())
