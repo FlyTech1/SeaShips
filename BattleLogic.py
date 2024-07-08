@@ -10,6 +10,7 @@ class Window_main(QMainWindow):
     def __init__(self):
         super(Window_main,self).__init__()
         self.ui=Ui_MainWindow()
+        self.ui.widget_2.hide()
         self.ui.setupUi(self)
         self.ui.PB_Play.clicked.connect(self.on_PB_Play_clicked)
         self.ui.PB_TG.clicked.connect(self.on_PB_TG_clicked)
