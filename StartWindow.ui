@@ -103,7 +103,7 @@ border-radius: 25px;</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">image: url(:/icon/icons/1-20-2048x2011.png);
+     <string notr="true">image: url(:/icon/1-20-2048x2011.png);
 
 background-color: rgb(255, 255, 255);
 border-radius: 35px;</string>
