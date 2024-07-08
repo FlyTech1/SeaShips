@@ -7,7 +7,7 @@ from game_menu import  Ui_game_menu
 from PySide6.QtGui import QDesktopServices
 from PySide6 import  QtGui, QtCore
 from PySide6.QtCore import QUrl
-
+from Battle_Logic2 import Window_Game_Menu
 class Window_main(QMainWindow):
     def __init__(self):
         super(Window_main,self).__init__()
@@ -17,8 +17,9 @@ class Window_main(QMainWindow):
         self.ui.PB_TG.clicked.connect(self.on_PB_TG_clicked)
     def on_PB_Play_clicked(self):
         self.game_menu_window=Window_Game_Menu()
+        self.game_menu_window.setParent(self)
         self.game_menu_window.show()
-        self.hide()
+        #self.hide()
     def on_PB_TG_clicked(self):
         print("NEGRI")
         url=QUrl("https://t.me/bezdariprogaut")
@@ -26,8 +27,3 @@ class Window_main(QMainWindow):
 
 
 
-class Window_Game_Menu(QMainWindow):
-    def __init__(self):
-        super(Window_Game_Menu, self).__init__()
-        self.ui = Ui_game_menu()
-        self.ui.setupUi(self)
