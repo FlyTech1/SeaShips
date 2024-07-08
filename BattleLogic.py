@@ -1,13 +1,11 @@
 import sys
 
 from PySide6.QtWidgets import QApplication, QMainWindow,QLabel
-from StartWindow import Ui_MainWindow
-from game_menu import  Ui_game_menu
+from Window import Ui_MainWindow
 
 from PySide6.QtGui import QDesktopServices
 from PySide6 import  QtGui, QtCore
 from PySide6.QtCore import QUrl
-from Battle_Logic2 import Window_Game_Menu
 class Window_main(QMainWindow):
     def __init__(self):
         super(Window_main,self).__init__()
