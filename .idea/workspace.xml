@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb3f5831-e8e8-4500-be80-a785c48bb19a" name="Changes" comment="1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BattleLogic.py" beforeDir="false" afterPath="$PROJECT_DIR$/BattleLogic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StartWindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/StartWindow.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StartWindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/StartWindow.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/1-20-2048x2011.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/ship1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/ship2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/ship3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/ship4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/StartWindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/StartWindow.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/res_rc.qrc" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/res_rc.qrc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +32,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -47,6 +51,7 @@
 }</component>
   <component name="ProjectId" id="2ipjZ4Ey7DA4PiI0ciGT3n5r3hS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
