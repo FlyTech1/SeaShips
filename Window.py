@@ -75,7 +75,7 @@ class Ui_MainWindow(object):
         self.widget_2.setStyleSheet(u"background-color:#009eff;")
         self.Random_pos_ships = QPushButton(self.widget_2)
         self.Random_pos_ships.setObjectName(u"Random_pos_ships")
-        self.Random_pos_ships.setGeometry(QRect(460, 10, 301, 91))
+        self.Random_pos_ships.setGeometry(QRect(570, 10, 200, 100))
         font3 = QFont()
         font3.setFamilies([u"MS Sans Serif"])
         font3.setPointSize(9)
@@ -110,8 +110,13 @@ class Ui_MainWindow(object):
         self.tableWidget.setHorizontalHeaderItem(9, __qtablewidgetitem9)
         if (self.tableWidget.rowCount() < 10):
             self.tableWidget.setRowCount(10)
+        for i in range(10):
+            self.tableWidget.setColumnWidth(i,48)
+        for i in range(10):
+            self.tableWidget.setRowHeight(i,45)
         self.tableWidget.setObjectName(u"tableWidget")
-        self.tableWidget.setGeometry(QRect(10, 10, 411, 351))
+        self.tableWidget.setGeometry(QRect(10, 10, 540, 500))
+        #self.tableWidget.setStyleSheet("QTableWidget { border: none; }")
         self.Ship_1 = QLabel(self.widget_2)
         self.Ship_1.setObjectName(u"Ship_1")
         self.Ship_1.setGeometry(QRect(640, 170, 41, 41))
