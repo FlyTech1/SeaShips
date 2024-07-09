@@ -14,10 +14,12 @@ class Window_main(QMainWindow):
         self.ui.PB_Play.clicked.connect(self.on_PB_Play_clicked)
         self.ui.PB_TG.clicked.connect(self.on_PB_TG_clicked)
         self.ui.PB_Rules.clicked.connect(self.on_PB_Rules_clicked)
+        self.setMouseTracking(True)
         self.dragging=False
     def on_PB_Play_clicked(self):
         self.ui.widget.hide()
         self.ui.widget_2.show()
+        #self.ui.widget_2.setFocus()
         #self.hide()
     def on_PB_TG_clicked(self):
         url1=QUrl("https://t.me/bezdariprogaut")
@@ -28,12 +30,14 @@ class Window_main(QMainWindow):
 
     def mouseMoveEvent(self, event):
         print("123")
+        print(self.dragging)
         if self.dragging:
             self.ui.Ship_1.move(event.pos() - self.offset)
+            print("111")
     def mousePressEvent(self, event):
-        if(event.buttons()==Qt.MouseButton.LeftButton and self.ui.Ship_1.geometry().contains(event.pos())):
+        if(self.ui.Ship_1.geometry().contains(event.pos())and event.buttons()==Qt.MouseButton.LeftButton):
             self.dragging = True
-            print("123")
+            print("444")
             self.offset=event.pos()-self.ui.Ship_1.pos()
             print(event.pos())
             print(self.offset)
