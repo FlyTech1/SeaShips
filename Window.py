@@ -18,7 +18,7 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
 from PySide6.QtWidgets import (QApplication, QHeaderView, QLabel, QMainWindow,
     QPushButton, QSizePolicy, QTableWidget, QTableWidgetItem,
     QWidget)
-import res_rc_rc
+import res_rc
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -42,8 +42,7 @@ class Ui_MainWindow(object):
         font1.setPointSize(52)
         font1.setBold(True)
         self.PB_TG.setFont(font1)
-        self.PB_TG.setStyleSheet(u"image: url(:/icon/icons/1-20-2048x2011.png);\n"
-"\n"
+        self.PB_TG.setStyleSheet(u"image: url(:/icons/icons/1-20-2048x2011.png);\n"
 "background-color: rgb(255, 255, 255);\n"
 "border-radius: 35px;")
         self.PB_TG.setIconSize(QSize(32, 32))
@@ -140,6 +139,8 @@ class Ui_MainWindow(object):
 "border: 1px solid black;\n"
 "border-radius: 25px;")
         MainWindow.setCentralWidget(self.centralwidget)
+        self.widget_2.raise_()
+        self.widget.raise_()
 
         self.retranslateUi(MainWindow)
 
@@ -172,10 +173,10 @@ class Ui_MainWindow(object):
         ___qtablewidgetitem8.setText(QCoreApplication.translate("MainWindow", u"\u0418", None));
         ___qtablewidgetitem9 = self.tableWidget.horizontalHeaderItem(9)
         ___qtablewidgetitem9.setText(QCoreApplication.translate("MainWindow", u"\u041a", None));
-        self.Ship_1.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><img src=\":/ModelsShips/Models ships/ship1.png\"/></p></body></html>", None))
-        self.Ship_3.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><img src=\":/ModelsShips/Models ships/ship3.png\"/></p></body></html>", None))
-        self.Ship_4.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><img src=\":/ModelsShips/Models ships/ship4.png\"/></p></body></html>", None))
-        self.Ship_2.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><img src=\":/ModelsShips/Models ships/ship2.png\"/></p></body></html>", None))
+        self.Ship_1.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><img src=\":/Models_Ships/Models ships/ship1.png\"/></p></body></html>", None))
+        self.Ship_3.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><img src=\":/Models_Ships/Models ships/ship3.png\"/></p></body></html>", None))
+        self.Ship_4.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><img src=\":/Models_Ships/Models ships/ship4.png\"/></p></body></html>", None))
+        self.Ship_2.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><img src=\":/Models_Ships/Models ships/ship2.png\"/></p></body></html>", None))
         self.User_ready.setText(QCoreApplication.translate("MainWindow", u"\u0413\u043e\u0442\u043e\u0432!", None))
     # retranslateUi
 

@@ -48,8 +48,7 @@
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">image: url(:/icon/icons/1-20-2048x2011.png);
-
+      <string notr="true">image: url(:/icons/icons/1-20-2048x2011.png);
 background-color: rgb(255, 255, 255);
 border-radius: 35px;</string>
      </property>
@@ -263,7 +262,7 @@ border-radius: 25px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/ModelsShips/Models ships/ship1.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/Models_Ships/Models ships/ship1.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
     </widget>
     <widget class="QLabel" name="Ship_3">
@@ -276,7 +275,7 @@ border-radius: 25px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/ModelsShips/Models ships/ship3.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/Models_Ships/Models ships/ship3.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
     </widget>
     <widget class="QLabel" name="Ship_4">
@@ -289,7 +288,7 @@ border-radius: 25px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/ModelsShips/Models ships/ship4.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/Models_Ships/Models ships/ship4.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
     </widget>
     <widget class="QLabel" name="Ship_2">
@@ -302,7 +301,7 @@ border-radius: 25px;</string>
       </rect>
      </property>
      <property name="text">
-      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/ModelsShips/Models ships/ship2.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/Models_Ships/Models ships/ship2.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
     </widget>
     <widget class="QPushButton" name="User_ready">
@@ -334,6 +333,8 @@ border-radius: 25px;</string>
      </property>
     </widget>
    </widget>
+   <zorder>widget_2</zorder>
+   <zorder>widget</zorder>
   </widget>
  </widget>
  <resources>
