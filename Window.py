@@ -116,7 +116,7 @@ class Ui_MainWindow(object):
             self.tableWidget.setRowHeight(i,45)
         self.tableWidget.setObjectName(u"tableWidget")
         self.tableWidget.setGeometry(QRect(10, 10, 540, 500))
-        #self.tableWidget.setStyleSheet("QTableWidget { border: none; }")
+        self.tableWidget.setStyleSheet("QTableWidget { border: none; }")
         self.Ship_1 = QLabel(self.widget_2)
         self.Ship_1.setObjectName(u"Ship_1")
         self.Ship_1.setGeometry(QRect(640, 170, 41, 41))
