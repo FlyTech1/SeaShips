@@ -117,10 +117,21 @@ class Ui_MainWindow(object):
         self.tableWidget.setObjectName(u"tableWidget")
         self.tableWidget.setGeometry(QRect(10, 10, 540, 500))
         self.tableWidget.setStyleSheet("""
-        QTableWidget { border: none;gridline-color: black; }
-        QHeaderView::section {background-color: transparent; border: 1px solid black;}
-        QHeaderView::row {border-top: none; border-bottom: none;}
+            QTableWidget { 
+                border: none;
+                gridline-color: black; 
+            }
+            QHeaderView::section {
+                background-color: transparent; 
+                border: 0px solid black; /* Убираем все границы по умолчанию */
+                border-bottom: 1px solid black; /* Добавляем нижнюю границу для заголовков столбцов */
+            }
+            QHeaderView::section:vertical { 
+                border-bottom: 0px solid black; /* Убираем нижнюю границу у заголовков строк */
+                border-right: 1px solid black; /* Добавляем правую границу для заголовков строк */
+            }
         """)
+        self.tableWidget.setDisabled(1)
         self.Ship_1 = QLabel(self.widget_2)
         self.Ship_1.setObjectName(u"Ship_1")
         self.Ship_1.setGeometry(QRect(640, 170, 41, 41))
