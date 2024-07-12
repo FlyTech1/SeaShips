@@ -37,6 +37,13 @@ class DraggableLabel(QLabel):
     def mouseReleaseEvent(self, event):
         if event.button() == Qt.LeftButton:
             self.dragging = False
+
+    def rotate(self):
+        print('123')
+        self.setStyleSheet("transform: rotate(90deg);")
+
+    def mouseDoubleClickEvent(self, event):
+        self.rotate()
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
@@ -151,17 +158,21 @@ class Ui_MainWindow(object):
         """)
 
         self.Ship_1 = DraggableLabel(self.widget_2)
+        self.Ship_1.setAlignment(Qt.AlignCenter)
         self.Ship_1.setObjectName(u"Ship_1")
-        self.Ship_1.setGeometry(QRect(640, 170, 41, 41))
+        self.Ship_1.setGeometry(QRect(640, 170, 47, 44))
         self.Ship_3 = DraggableLabel(self.widget_2)
+        self.Ship_3.setAlignment(Qt.AlignCenter)
         self.Ship_3.setObjectName(u"Ship_3")
-        self.Ship_3.setGeometry(QRect(640, 250, 71, 51))
+        self.Ship_3.setGeometry(QRect(640, 250, 141, 44))
         self.Ship_4 = DraggableLabel(self.widget_2)
+        self.Ship_4.setAlignment(Qt.AlignCenter)
         self.Ship_4.setObjectName(u"Ship_4")
-        self.Ship_4.setGeometry(QRect(640, 300, 101, 41))
+        self.Ship_4.setGeometry(QRect(640, 300, 188, 44))
         self.Ship_2 = DraggableLabel(self.widget_2)
+        self.Ship_2.setAlignment(Qt.AlignCenter)
         self.Ship_2.setObjectName(u"Ship_2")
-        self.Ship_2.setGeometry(QRect(640, 210, 51, 31))
+        self.Ship_2.setGeometry(QRect(640, 210, 94, 44))
         self.User_ready = QPushButton(self.widget_2)
         self.User_ready.setObjectName(u"User_ready")
         self.User_ready.setGeometry(QRect(240, 490, 291, 71))

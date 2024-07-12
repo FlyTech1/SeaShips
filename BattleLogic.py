@@ -18,25 +18,6 @@ class Window_main(QMainWindow):
         self.setMouseTracking(True)
         self.dragging = False
 
-        # Заменяем QLabel на DraggableLabel
-
-        # self.ui.Ship_2 = DraggableLabel(self.ui.widget_2)
-        # self.ui.Ship_2.setObjectName("Ship_2")
-        # self.ui.Ship_2.setGeometry(QRect(640, 210, 51, 31))
-        # self.ui.Ship_2.setStyleSheet("background-color: transparent;")
-        # self.ui.Ship_2.setText('<img src=":/Models_Ships/Models ships/ship2.png"/>')
-        #
-        # self.ui.Ship_3 = DraggableLabel(self.ui.widget_2)
-        # self.ui.Ship_3.setObjectName("Ship_3")
-        # self.ui.Ship_3.setGeometry(QRect(640, 250, 71, 51))
-        # self.ui.Ship_3.setStyleSheet("background-color: transparent;")
-        # self.ui.Ship_3.setText('<img src=":/Models_Ships/Models ships/ship3.png"/>')
-        #
-        # self.ui.Ship_4 = DraggableLabel(self.ui.widget_2)
-        # self.ui.Ship_4.setObjectName("Ship_4")
-        # self.ui.Ship_4.setGeometry(QRect(640, 300, 101, 41))
-        # self.ui.Ship_4.setStyleSheet("background-color: transparent;")
-        # self.ui.Ship_4.setText('<img src=":/Models_Ships/Models ships/ship4.png"/>')
 
     def on_PB_Play_clicked(self):
         self.ui.widget.hide()
