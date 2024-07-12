@@ -20,6 +20,23 @@ from PySide6.QtWidgets import (QApplication, QHeaderView, QLabel, QMainWindow,
     QWidget)
 import res_rc
 
+class DraggableLabel(QLabel):
+    def __init__(self, parent=None):
+        super().__init__(parent)
+        self.dragging = False
+
+    def mousePressEvent(self, event):
+        if event.button() == Qt.LeftButton:
+            self.dragging = True
+            self.drag_start_position = event.globalPosition().toPoint() - self.pos()
+
+    def mouseMoveEvent(self, event):
+        if self.dragging:
+            self.move(event.globalPosition().toPoint() - self.drag_start_position)
+
+    def mouseReleaseEvent(self, event):
+        if event.button() == Qt.LeftButton:
+            self.dragging = False
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
@@ -133,16 +150,16 @@ class Ui_MainWindow(object):
             }
         """)
 
-        self.Ship_1 = QLabel(self.widget_2)
+        self.Ship_1 = DraggableLabel(self.widget_2)
         self.Ship_1.setObjectName(u"Ship_1")
         self.Ship_1.setGeometry(QRect(640, 170, 41, 41))
-        self.Ship_3 = QLabel(self.widget_2)
+        self.Ship_3 = DraggableLabel(self.widget_2)
         self.Ship_3.setObjectName(u"Ship_3")
         self.Ship_3.setGeometry(QRect(640, 250, 71, 51))
-        self.Ship_4 = QLabel(self.widget_2)
+        self.Ship_4 = DraggableLabel(self.widget_2)
         self.Ship_4.setObjectName(u"Ship_4")
         self.Ship_4.setGeometry(QRect(640, 300, 101, 41))
-        self.Ship_2 = QLabel(self.widget_2)
+        self.Ship_2 = DraggableLabel(self.widget_2)
         self.Ship_2.setObjectName(u"Ship_2")
         self.Ship_2.setGeometry(QRect(640, 210, 51, 31))
         self.User_ready = QPushButton(self.widget_2)
